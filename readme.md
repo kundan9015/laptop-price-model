@@ -51,4 +51,27 @@ The dataset is used to study how price changes with CPU frequency and how polyno
 
 ## 🔍 Model Evaluation
 
-- **R² Score** is used to measure how well the model explains variance in da
+- **R² Score** is used to measure how well the model explains variance in data
+- **MSE** is used to measure average prediction error
+- Higher-degree polynomials show:
+  - Better training fit
+  - But unstable and unrealistic predictions (overfitting)
+
+---
+
+## 📈 Visualization
+
+The notebook includes:
+- Polynomial fit curves
+- Degree-wise prediction comparison
+- Actual vs Predicted price distribution plots
+
+These visualizations help in understanding model behavior and performance.
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/USERNAME/laptop-price-model.git
